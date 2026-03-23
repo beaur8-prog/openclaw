@@ -31,7 +31,7 @@
 
 대표 커밋:
 
-- [`Initial commit`](https://github.com/beaur8-prog/openclaw/commit/f6dd362d39b8e30bd79ef7560aab9575712ccc11)
+- [`Initial commit`](https://github.com/beaur8-prog/openclaw/tree/f6dd362d39b8e30bd79ef7560aab9575712ccc11)
 
 ## 2. 2025-11-24: `warelay` CLI 탄생
 
@@ -52,7 +52,7 @@
 
 대표 커밋:
 
-- [`Add warelay CLI with Twilio webhook support`](https://github.com/beaur8-prog/openclaw/commit/16dfc1a5b929f7184261c52f50846daca536ca24)
+- [`Add warelay CLI with Twilio webhook support`](https://github.com/beaur8-prog/openclaw/tree/16dfc1a5b929f7184261c52f50846daca536ca24)
 
 ## 3. 2025-11-24 ~ 2025-11-25: 빠른 모듈화
 
@@ -84,10 +84,10 @@
 
 대표 커밋:
 
-- [`Refactor CLI into modules for web provider and utils`](https://github.com/beaur8-prog/openclaw/commit/cafca5c42152c9edd006d2af9961aba1e19ed611)
-- [`Add command modules and tests; commit remaining changes`](https://github.com/beaur8-prog/openclaw/commit/938e237411f8a5211a098c8dc6432f4c6901837b)
-- [`feat: serialize command auto-replies with queue`](https://github.com/beaur8-prog/openclaw/commit/13be898c07e3df69e2118753b434ff9cecf7ab9c)
-- [`feat: add image support across web and twilio`](https://github.com/beaur8-prog/openclaw/commit/948ff7f035f68810244c1698c9b090443cb5e7c2)
+- [`Refactor CLI into modules for web provider and utils`](https://github.com/beaur8-prog/openclaw/tree/cafca5c42152c9edd006d2af9961aba1e19ed611)
+- [`Add command modules and tests; commit remaining changes`](https://github.com/beaur8-prog/openclaw/tree/938e237411f8a5211a098c8dc6432f4c6901837b)
+- [`feat: serialize command auto-replies with queue`](https://github.com/beaur8-prog/openclaw/tree/13be898c07e3df69e2118753b434ff9cecf7ab9c)
+- [`feat: add image support across web and twilio`](https://github.com/beaur8-prog/openclaw/tree/948ff7f035f68810244c1698c9b090443cb5e7c2)
 
 ## 4. 초기 문서 생성: 기능 메모형 docs
 
@@ -105,11 +105,11 @@
 
 대표 커밋:
 
-- [`feat: serialize command auto-replies with queue`](https://github.com/beaur8-prog/openclaw/commit/13be898c07e3df69e2118753b434ff9cecf7ab9c)
-- [`feat: add image support across web and twilio`](https://github.com/beaur8-prog/openclaw/commit/948ff7f035f68810244c1698c9b090443cb5e7c2)
-- [`feat: transcribe audio and surface transcript to prompts`](https://github.com/beaur8-prog/openclaw/commit/e642f128ae086fa1bc8ba5f513015114567a7f07)
-- [`docs: document heartbeat triggers`](https://github.com/beaur8-prog/openclaw/commit/3998933b304e297afd7d92dc8840c6333a481288)
-- [`CLI: rename heartbeat tmux helper and log file path`](https://github.com/beaur8-prog/openclaw/commit/7e5b3958ccbb4719c5f2db81fbbb259b7bf9e196)
+- [`feat: serialize command auto-replies with queue`](https://github.com/beaur8-prog/openclaw/tree/13be898c07e3df69e2118753b434ff9cecf7ab9c)
+- [`feat: add image support across web and twilio`](https://github.com/beaur8-prog/openclaw/tree/948ff7f035f68810244c1698c9b090443cb5e7c2)
+- [`feat: transcribe audio and surface transcript to prompts`](https://github.com/beaur8-prog/openclaw/tree/e642f128ae086fa1bc8ba5f513015114567a7f07)
+- [`docs: document heartbeat triggers`](https://github.com/beaur8-prog/openclaw/tree/3998933b304e297afd7d92dc8840c6333a481288)
+- [`CLI: rename heartbeat tmux helper and log file path`](https://github.com/beaur8-prog/openclaw/tree/7e5b3958ccbb4719c5f2db81fbbb259b7bf9e196)
 
 ## 5. 2025-11-26 ~ 2025-12-03: 릴레이에서 에이전트로 이동
 
@@ -127,9 +127,9 @@
 
 대표 커밋:
 
-- [`feat: keep typing indicators alive during commands`](https://github.com/beaur8-prog/openclaw/commit/d871dad85f7a7f8fe389aa575c2739dc55fee47c)
-- [`feat: add heartbeat cli and relay trigger`](https://github.com/beaur8-prog/openclaw/commit/271004bf60ad5354960fead300f99430e6b1f8cf)
-- [`Agents: add pluggable CLIs`](https://github.com/beaur8-prog/openclaw/commit/f31e89d5af2ec84357a9e23ab748dc36c9fe6133)
+- [`feat: keep typing indicators alive during commands`](https://github.com/beaur8-prog/openclaw/tree/d871dad85f7a7f8fe389aa575c2739dc55fee47c)
+- [`feat: add heartbeat cli and relay trigger`](https://github.com/beaur8-prog/openclaw/tree/271004bf60ad5354960fead300f99430e6b1f8cf)
+- [`Agents: add pluggable CLIs`](https://github.com/beaur8-prog/openclaw/tree/f31e89d5af2ec84357a9e23ab748dc36c9fe6133)
 
 ## 6. 2025-12-03 ~ 2025-12-05: `CLAWDIS` 리브랜딩
 
@@ -148,9 +148,9 @@
 
 대표 커밋:
 
-- [`🦞 Rebrand to CLAWDIS - add docs, update README`](https://github.com/beaur8-prog/openclaw/commit/a27ee2366ebfa366ee960e567f72f97fe63085d9)
-- [`Switch to clawdis RPC mode and complete rebrand`](https://github.com/beaur8-prog/openclaw/commit/b3e50cbb33a0fdc818603d3375c95f22b7a2ae05)
-- [`chore: rename package to clawdis`](https://github.com/beaur8-prog/openclaw/commit/5949ef0e2ccc6a25888475473d3b9f6adc743cc2)
+- [`🦞 Rebrand to CLAWDIS - add docs, update README`](https://github.com/beaur8-prog/openclaw/tree/a27ee2366ebfa366ee960e567f72f97fe63085d9)
+- [`Switch to clawdis RPC mode and complete rebrand`](https://github.com/beaur8-prog/openclaw/tree/b3e50cbb33a0fdc818603d3375c95f22b7a2ae05)
+- [`chore: rename package to clawdis`](https://github.com/beaur8-prog/openclaw/tree/5949ef0e2ccc6a25888475473d3b9f6adc743cc2)
 
 ## 7. 2025-12-05 ~ 2025-12-10: Gateway 중심 구조 정착
 
@@ -169,10 +169,10 @@
 
 대표 커밋:
 
-- [`feat: add mac companion app`](https://github.com/beaur8-prog/openclaw/commit/a5164df293bd6808e169c9eddc2282ac3b3804cf)
-- [`chore: rename relay to gateway`](https://github.com/beaur8-prog/openclaw/commit/a3bf2bdd8cc3134ea84593e45d94f03d51e116fe)
-- [`Gateway: finalize WS control plane`](https://github.com/beaur8-prog/openclaw/commit/b2e7fb01a926273e9d8fdac035d855e991c7465f)
-- [`Gateway: discriminated protocol schema + CLI updates`](https://github.com/beaur8-prog/openclaw/commit/172ce6c79f400594501381f73d51105f6110db61)
+- [`feat: add mac companion app`](https://github.com/beaur8-prog/openclaw/tree/a5164df293bd6808e169c9eddc2282ac3b3804cf)
+- [`chore: rename relay to gateway`](https://github.com/beaur8-prog/openclaw/tree/a3bf2bdd8cc3134ea84593e45d94f03d51e116fe)
+- [`Gateway: finalize WS control plane`](https://github.com/beaur8-prog/openclaw/tree/b2e7fb01a926273e9d8fdac035d855e991c7465f)
+- [`Gateway: discriminated protocol schema + CLI updates`](https://github.com/beaur8-prog/openclaw/tree/172ce6c79f400594501381f73d51105f6110db61)
 
 ## 8. 2025-12-12 ~ 2025-12-18: 모바일 앱 추가
 
@@ -209,8 +209,8 @@
 
 대표 커밋:
 
-- [`feat(ios): add ClawdisNode app scaffold`](https://github.com/beaur8-prog/openclaw/commit/6d6c3ad2c45d28798183860701e9f03df8881795)
-- [`feat(android): add Compose node app (bridge+canvas+chat+camera)`](https://github.com/beaur8-prog/openclaw/commit/b2378c01ea7d3615212c4670303be76634c86c8b)
+- [`feat(ios): add ClawdisNode app scaffold`](https://github.com/beaur8-prog/openclaw/tree/6d6c3ad2c45d28798183860701e9f03df8881795)
+- [`feat(android): add Compose node app (bridge+canvas+chat+camera)`](https://github.com/beaur8-prog/openclaw/tree/b2378c01ea7d3615212c4670303be76634c86c8b)
 
 ## 9. 2025-12-18 ~ 2025-12-21: Web UI와 Skills 등장
 
@@ -240,9 +240,9 @@
 
 대표 커밋:
 
-- [`Gateway: add browser control UI`](https://github.com/beaur8-prog/openclaw/commit/df0c51a63bf56cbdeb0035292eadbfcdfe3a95e7)
-- [`feat: add managed skills gating`](https://github.com/beaur8-prog/openclaw/commit/d1850aaada68b50a188bfec57bf5d29eaa8bc492)
-- [`feat(ui): expand control dashboard`](https://github.com/beaur8-prog/openclaw/commit/6ff837125475fe0f48e245dd721af947e870cb33)
+- [`Gateway: add browser control UI`](https://github.com/beaur8-prog/openclaw/tree/df0c51a63bf56cbdeb0035292eadbfcdfe3a95e7)
+- [`feat: add managed skills gating`](https://github.com/beaur8-prog/openclaw/tree/d1850aaada68b50a188bfec57bf5d29eaa8bc492)
+- [`feat(ui): expand control dashboard`](https://github.com/beaur8-prog/openclaw/tree/6ff837125475fe0f48e245dd721af947e870cb33)
 
 ## 10. 2026-01-04 ~ 2026-01-30: 이름이 다시 여러 번 변경
 
@@ -260,9 +260,9 @@
 
 대표 커밋:
 
-- [`🦞 Rebrand to CLAWDIS - add docs, update README`](https://github.com/beaur8-prog/openclaw/commit/a27ee2366ebfa366ee960e567f72f97fe63085d9)
-- [`Rebrand app icons from Clawdis to Clawdbot`](https://github.com/beaur8-prog/openclaw/commit/fb0c566b2adc5914ba08340efced86540c73c617)
-- [`refactor: rename to openclaw`](https://github.com/beaur8-prog/openclaw/commit/9a7160786a7dbd21469fad73992158e415e4686e)
+- [`🦞 Rebrand to CLAWDIS - add docs, update README`](https://github.com/beaur8-prog/openclaw/tree/a27ee2366ebfa366ee960e567f72f97fe63085d9)
+- [`Rebrand app icons from Clawdis to Clawdbot`](https://github.com/beaur8-prog/openclaw/tree/fb0c566b2adc5914ba08340efced86540c73c617)
+- [`refactor: rename to openclaw`](https://github.com/beaur8-prog/openclaw/tree/9a7160786a7dbd21469fad73992158e415e4686e)
 
 ## 11. 2026-01-11 이후: 플러그인 아키텍처 도입
 
@@ -287,9 +287,9 @@
 
 대표 커밋:
 
-- [`feat: add plugin architecture`](https://github.com/beaur8-prog/openclaw/commit/cf0c72a557af74b96549b06ba3d13be82fcdf44a)
-- [`feat: restore voice-call plugin parity`](https://github.com/beaur8-prog/openclaw/commit/42c17adb5e4d3ea1f9b1d2fd921b9abc183b79df)
-- [`refactor: migrate extensions to plugin sdk`](https://github.com/beaur8-prog/openclaw/commit/1420d113d85c09956a7c38591b82be3e1489e089)
+- [`feat: add plugin architecture`](https://github.com/beaur8-prog/openclaw/tree/cf0c72a557af74b96549b06ba3d13be82fcdf44a)
+- [`feat: restore voice-call plugin parity`](https://github.com/beaur8-prog/openclaw/tree/42c17adb5e4d3ea1f9b1d2fd921b9abc183b79df)
+- [`refactor: migrate extensions to plugin sdk`](https://github.com/beaur8-prog/openclaw/tree/1420d113d85c09956a7c38591b82be3e1489e089)
 
 ## 12. 2026-02 ~ 2026-03: 대형 멀티채널 플랫폼으로 폭발적 확장
 
@@ -306,10 +306,10 @@
 
 대표 커밋:
 
-- [`UI: gateway dashboard with glassmorphism theme system`](https://github.com/beaur8-prog/openclaw/commit/3bbbe33a1b91c3cfe2327e2d5655c19c0b9fe3f8)
-- [`Session management improvements and dashboard API`](https://github.com/beaur8-prog/openclaw/commit/7b61ca1b06154cfc630244bc9535da769608680a)
-- [`refactor: privatize bundled sdk facades`](https://github.com/beaur8-prog/openclaw/commit/50ce9ac1c63dad1a4099b168a555fee406aaf00d)
-- [`Voice Call: enforce spoken-output contract and fix stream TTS silence regression`](https://github.com/beaur8-prog/openclaw/commit/3f7f2c8dc96e353173eb5572b46775cff5b80147)
+- [`UI: gateway dashboard with glassmorphism theme system`](https://github.com/beaur8-prog/openclaw/tree/3bbbe33a1b91c3cfe2327e2d5655c19c0b9fe3f8)
+- [`Session management improvements and dashboard API`](https://github.com/beaur8-prog/openclaw/tree/7b61ca1b06154cfc630244bc9535da769608680a)
+- [`refactor: privatize bundled sdk facades`](https://github.com/beaur8-prog/openclaw/tree/50ce9ac1c63dad1a4099b168a555fee406aaf00d)
+- [`Voice Call: enforce spoken-output contract and fix stream TTS silence regression`](https://github.com/beaur8-prog/openclaw/tree/3f7f2c8dc96e353173eb5572b46775cff5b80147)
 
 ## 현재 디렉터리들을 역사 순서로 보면
 
