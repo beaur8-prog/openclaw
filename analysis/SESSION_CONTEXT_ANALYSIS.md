@@ -29,8 +29,11 @@ OpenClaw는 현재 턴 입력과 과거 세션 기록을 분리해서 다룹니�
 
 관련 코드:
 - 현재 턴 prompt + sessionFile 조립: `/usr/lib/node_modules/openclaw/dist/reply-CFQ8lILc.js:27540`
+  - 대응 src: [`src/agents/pi-embedded-runner/run/attempt.ts#L2744`](../src/agents/pi-embedded-runner/run/attempt.ts#L2744), [`src/agents/pi-embedded-runner/run/attempt.ts#L2841`](../src/agents/pi-embedded-runner/run/attempt.ts#L2841)
 - 세션 열기: `/usr/lib/node_modules/openclaw/dist/pi-embedded-A-pNScBs.js:75256`
+  - 대응 src: [`src/agents/pi-embedded-runner/run/attempt.ts#L2030`](../src/agents/pi-embedded-runner/run/attempt.ts#L2030)
 - 세션 정리/제한/압축: `/usr/lib/node_modules/openclaw/dist/pi-embedded-A-pNScBs.js:75313`
+  - 대응 src: [`src/agents/pi-embedded-runner/compact.ts#L788`](../src/agents/pi-embedded-runner/compact.ts#L788), [`src/agents/pi-embedded-runner/compact.ts#L1003`](../src/agents/pi-embedded-runner/compact.ts#L1003)
 
 의미:
 - 현재 사용자의 질문은 별도로 prompt로 들어갑니다.
@@ -40,8 +43,11 @@ OpenClaw는 현재 턴 입력과 과거 세션 기록을 분리해서 다룹니�
 ### 4.2 긴 세션은 압축(compaction) 대상
 관련 코드:
 - compaction 관련 설정: `/usr/lib/node_modules/openclaw/dist/reply-CFQ8lILc.js:9316`
+  - 대응 src: [`src/config/defaults.ts#L509`](../src/config/defaults.ts#L509)
 - compaction 실행: `/usr/lib/node_modules/openclaw/dist/pi-embedded-A-pNScBs.js:74995`
+  - 대응 src: [`src/agents/pi-embedded-runner/compact.ts#L1003`](../src/agents/pi-embedded-runner/compact.ts#L1003)
 - compaction summary 처리 흔적: `/usr/lib/node_modules/openclaw/dist/pi-embedded-A-pNScBs.js:74360`
+  - 대응 src: [`src/agents/pi-extensions/compaction-safeguard.ts#L978`](../src/agents/pi-extensions/compaction-safeguard.ts#L978), [`src/agents/pi-extensions/compaction-safeguard.ts#L1095`](../src/agents/pi-extensions/compaction-safeguard.ts#L1095)
 
 의미:
 - 오래된 대화는 그대로 다 남겨두는 것이 아니라 요약본으로 바뀔 수 있습니다.
